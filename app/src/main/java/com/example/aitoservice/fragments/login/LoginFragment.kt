@@ -52,10 +52,13 @@ class LoginFragment : Fragment() {
             throw exception
         } catch (e: FirebaseAuthInvalidUserException) {
             showMessage("Пользователь не найден")
+            binding.progressBar.visibility = View.GONE
         } catch (e: FirebaseAuthInvalidCredentialsException) {
             showMessage("Неверные учетные данные")
+            binding.progressBar.visibility = View.GONE
         } catch (e: Exception) {
             showMessage("Ошибка")
+            binding.progressBar.visibility = View.GONE
         }
     }
     private fun toLogin(email:String,password:String){
@@ -77,5 +80,4 @@ class LoginFragment : Fragment() {
                     handleException(it.exception!!)
             }
     }
-
 }

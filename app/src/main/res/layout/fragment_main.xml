@@ -22,16 +22,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:itemIconSize="30dp"
         app:labelVisibilityMode="selected"/>
-    <androidx.fragment.app.FragmentContainerView
+    <fragment
         android:id="@+id/fragment_container_view"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:name="androidx.navigation.fragment.NavHostFragment"
+        class="androidx.navigation.fragment.NavHostFragment"
         app:defaultNavHost="true"
         app:layout_constraintTop_toBottomOf="@id/bottomNavigationView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:navGraph="@navigation/nav_main_fragment_graph"/>
+        app:navGraph="@navigation/nav_main_fragment_graph"
+        tools:ignore="FragmentTagUsage" />
 </androidx.constraintlayout.widget.ConstraintLayout>
     <ProgressBar
         android:id="@+id/progressBar"
