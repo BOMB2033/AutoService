@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/fragment_home" android:icon="@drawable/ic_home" android:title="@string/main"/>
+    <item android:id="@+id/fragment_service" android:icon="@drawable/ic_wrench" android:title="@string/service"/>
+    <item android:id="@+id/fragment_info"  android:icon="@drawable/ic_info" android:title="@string/adout_company"/>
+    <item android:id="@+id/fragment_support" android:icon="@drawable/ic_chat" android:title="@string/support"/>
+</menu>

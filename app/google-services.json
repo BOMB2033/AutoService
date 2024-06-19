@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "836667657412",
+    "project_id": "autoservice-57b40",
+    "storage_bucket": "autoservice-57b40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836667657412:android:f75257b8d2d343c1ac4d91",
+        "android_client_info": {
+          "package_name": "com.example.aitoservice"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKvBsZgrzxMHn7yYExfW3HjN72mIvVHFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

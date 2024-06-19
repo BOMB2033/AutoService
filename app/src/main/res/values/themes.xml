@@ -1,0 +1,10 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AitoService" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/accent</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="Theme.AitoService" parent="Base.Theme.AitoService" />
+</resources>
